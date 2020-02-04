@@ -13,5 +13,22 @@ body {
 }
 
 .description {
-    color: hsl(204, 43%, 93%);
+    color: hsl(218, 22%, 67%);
+}
+
+.green-cards {
+    color: white;
+}
+
+.green-card-left {
+    background-color: #2bb3b1;
+}
+
+.green-card-right {
+    background-color: #4abebd;
+}
+
+.attribution {
+    padding-top: 1rem;
+    text-align: center;
 }
