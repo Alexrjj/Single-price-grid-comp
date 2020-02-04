@@ -6,7 +6,6 @@ body {
 .white-card {
     background-color: white;
     margin: 15rem 15rem 0 15rem;
-
 }
 
 .join {
@@ -24,26 +23,36 @@ body {
     color: hsl(218, 22%, 67%);
 }
 
-.green-cards {
+.green-cards h3 {
     color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
 }
 
-.green-cards h3 {
+.green-cards p, span {
+    color: hsl(204, 43%, 93%);
+}
+
+.price {
+    color: white;
+    font-size: 2rem;
     font-weight: 700;
-    font-size: 1.3rem;
 }
 
 .green-card-left {
     background-color: #2bb3b1;
     margin: 0 0 0 15rem;
+    padding: 2rem;
 }
 
 .green-card-right {
     background-color: #4abebd;
     margin: 0 15rem 0 0;
+    padding: 2rem;
 }
 
 .list-description {
+    color: hsl(204, 43%, 93%);
     list-style: none;
     padding-left: 0;
 }
