@@ -3,6 +3,10 @@ body {
     font-family: 'Karla', sans-serif;
 }
 
+.white-card {
+    background-color: white;
+}
+
 .join {
     color:  hsl(179, 62%, 43%);
     font-weight: 700;
