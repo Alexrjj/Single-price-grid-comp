@@ -7,7 +7,7 @@ body {
 .white-card {
     background-color: white;
     margin: 15rem 15rem 0 15rem;
-    box-shadow: 0 -0.3rem 1rem 0 lightgrey;
+    box-shadow: 0 -0.3rem 1rem 0 #d2dbe3;
     border-top-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
     padding: 2rem;
@@ -52,15 +52,30 @@ body {
     background-color: #2bb3b1;
     margin: 0 0 0 15rem;
     padding: 2rem;
-    box-shadow: -0.3rem 0.3rem 0.5rem 0.1rem lightgrey;
+    box-shadow: -0.3rem 0.3rem 0.5rem 0.1rem #d2dbe3;
     border-bottom-left-radius: 0.5rem;
+}
+
+.btn-primary {
+    margin-top: 0.5rem;
+    padding: 0.7rem 5.7rem;
+    background-color: #bfdf32;
+    color: white;
+    border-radius: 0.4rem;
+    border: none;
+    box-shadow: 0.3rem 0.3rem 1rem 0.1rem #26a29f;
+}
+
+.btn-primary:hover {
+    color: hsl(218, 22%, 67%);
+    background-color: white;
 }
 
 .green-card-right {
     background-color: #4abebd;
     margin: 0 15rem 0 0;
     padding: 2rem;
-    box-shadow: 0.3rem 0.3rem 0.5rem 0.1rem lightgrey;
+    box-shadow: 0.3rem 0.3rem 0.5rem 0.1rem #d2dbe3;
     border-bottom-right-radius: 0.5rem;
     border-left: 1px solid #2bb3b1;
 }
