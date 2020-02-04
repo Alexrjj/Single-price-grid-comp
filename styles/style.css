@@ -5,6 +5,8 @@ body {
 
 .white-card {
     background-color: white;
+    margin: 15rem 15rem 0 15rem;
+
 }
 
 .join {
@@ -33,10 +35,12 @@ body {
 
 .green-card-left {
     background-color: #2bb3b1;
+    margin: 0 0 0 15rem;
 }
 
 .green-card-right {
     background-color: #4abebd;
+    margin: 0 15rem 0 0;
 }
 
 .list-description {
