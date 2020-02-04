@@ -1,0 +1,17 @@
+body {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+.join {
+    color:  hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+
+.guarantee {
+    color: hsl(71, 73%, 54%);
+}
+
+.description {
+    color: hsl(204, 43%, 93%);
+}
