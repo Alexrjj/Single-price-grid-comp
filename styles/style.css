@@ -1,26 +1,35 @@
 body {
     font-size: 16px;
     font-family: 'Karla', sans-serif;
+    background-color: #e6eff6;
 }
 
 .white-card {
     background-color: white;
     margin: 15rem 15rem 0 15rem;
+    box-shadow: 0 -0.3rem 1rem 0 lightgrey;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    padding: 2rem;
 }
 
 .join {
     color:  hsl(179, 62%, 43%);
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
 }
 
 .guarantee {
     color: hsl(71, 73%, 54%);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 1rem 0 1rem 0;
 }
 
 .description {
+    font-weight: 700;
     color: hsl(218, 22%, 67%);
+    margin: 0;
 }
 
 .green-cards h3 {
@@ -43,12 +52,17 @@ body {
     background-color: #2bb3b1;
     margin: 0 0 0 15rem;
     padding: 2rem;
+    box-shadow: -0.3rem 0.3rem 0.5rem 0.1rem lightgrey;
+    border-bottom-left-radius: 0.5rem;
 }
 
 .green-card-right {
     background-color: #4abebd;
     margin: 0 15rem 0 0;
     padding: 2rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem 0.1rem lightgrey;
+    border-bottom-right-radius: 0.5rem;
+    border-left: 1px solid #2bb3b1;
 }
 
 .list-description {
