@@ -128,4 +128,12 @@ body {
     .guarantee {
         padding-bottom: 1rem;
     }
+
+    .green-card-left {
+        border-bottom-left-radius: 0;
+    }
+
+    .green-card-right {
+        border-bottom-left-radius: 0.5rem;
+    }
 }
