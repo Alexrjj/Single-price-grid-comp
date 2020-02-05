@@ -8,6 +8,7 @@ body {
     padding: 15rem 15rem 0 15rem;
 }
 
+/*----- White Card -----*/
 .white-card {
     background-color: white;
     box-shadow: 0 -0.3rem 1rem 0 #d2dbe3;
@@ -36,6 +37,7 @@ body {
     line-height: 1.5;
 }
 
+/*----- Green Cards -----*/
 .green-cards h3 {
     color: white;
     font-weight: 700;
@@ -70,21 +72,6 @@ body {
     border-bottom-left-radius: 0.5rem;
 }
 
-.btn-primary {
-    margin-top: 0.5rem;
-    padding: 0.7rem 5.7rem;
-    background-color: #bfdf32;
-    color: white;
-    border-radius: 0.4rem;
-    border: none;
-    box-shadow: 0.3rem 0.3rem 1rem 0.1rem #26a29f;
-}
-
-.btn-primary:hover {
-    color: hsl(218, 22%, 67%);
-    background-color: white;
-}
-
 .green-card-right {
     background-color: #4abebd;
     padding: 2rem;
@@ -100,6 +87,23 @@ body {
     padding-left: 0;
 }
 
+/*----- Register Button -----*/
+.btn-primary {
+    margin-top: 0.5rem;
+    padding: 0.7rem 5.7rem;
+    background-color: #bfdf32;
+    color: white;
+    border-radius: 0.4rem;
+    border: none;
+    box-shadow: 0.3rem 0.3rem 1rem 0.1rem #26a29f;
+}
+
+.btn-primary:hover {
+    color: hsl(218, 22%, 67%);
+    background-color: white;
+}
+
+/*----- Footer -----*/
 .attribution {
     color: #7f7f7f;
     padding-top: 1rem;
@@ -110,6 +114,7 @@ body {
     color: #26a29f;
 }
 
+/*----- Media Queries -----*/
 @media screen and (min-width: 375px) and (max-width: 992px){
     .container {
         padding: 5rem 0 0 0;
