@@ -4,9 +4,12 @@ body {
     background-color: #e6eff6;
 }
 
+.container {
+    padding: 15rem;
+}
+
 .white-card {
     background-color: white;
-    margin: 15rem 15rem 0 15rem;
     box-shadow: 0 -0.3rem 1rem 0 #d2dbe3;
     border-top-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
@@ -62,7 +65,6 @@ body {
 
 .green-card-left {
     background-color: #2bb3b1;
-    margin: 0 0 0 15rem;
     padding: 2rem;
     box-shadow: -0.3rem 0.3rem 0.5rem 0.1rem #d2dbe3;
     border-bottom-left-radius: 0.5rem;
@@ -85,7 +87,6 @@ body {
 
 .green-card-right {
     background-color: #4abebd;
-    margin: 0 15rem 0 0;
     padding: 2rem;
     box-shadow: 0.3rem 0.3rem 0.5rem 0.1rem #d2dbe3;
     border-bottom-right-radius: 0.5rem;
@@ -107,4 +108,19 @@ body {
 
 .attribution a {
     color: #26a29f;
+}
+
+@media screen and (min-width: 375px) and (max-width: 992px){
+    .container {
+        padding: 5rem 0 0 0;
+        width: 65%;
+    }
+
+    .btn-primary {
+        padding: 0.7rem 6rem;
+    }
+
+    .guarantee {
+        padding-bottom: 1rem;
+    }
 }
